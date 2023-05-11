@@ -10,6 +10,10 @@ export class Pokemon extends Document {
     index: true,
   })
   name: string;
+  @Prop({
+    unique: true,
+    index: true,
+  })
   no: number;
 }
 
