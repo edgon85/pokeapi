@@ -5,6 +5,10 @@
 /dist
 /node_modules
 
+.env
+.env.production
+.env.development
+
 # Logs
 logs
 *.log
